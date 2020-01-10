@@ -1,8 +1,8 @@
-var _Alert2 = _interopRequireDefault(require("element-ui4/lib/theme-custom/alert.css")).default;
+require("element-ui4/lib/theme-custom/alert.css");
 
 var _Alert = _interopRequireDefault(require("element-ui4/lib/alert")).default;
 
-var _Button2 = _interopRequireDefault(require("element-ui4/lib/theme-custom/button.css")).default;
+require("element-ui4/lib/theme-custom/button.css");
 
 var _Button = _interopRequireDefault(require("element-ui4/lib/button")).default;
 

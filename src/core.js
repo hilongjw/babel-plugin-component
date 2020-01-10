@@ -111,8 +111,8 @@ module.exports = function core(defaultLibraryName) {
               cache[libraryName] = 2;
             }
           }
-
-          addDefault(file.path, path, { nameHint: methodName });
+          // use addSideEffect instead of addDefault
+          addSideEffect(file.path, path);
         } else {
           if (style === true) {
             addSideEffect(file.path, `${path}/style${ext}`);

@@ -1,6 +1,6 @@
 import { transformFileSync } from '@babel/core';
 import { join } from 'path';
-import { readdirSync, readFileSync } from 'fs';
+import { readdirSync, readFileSync, fstat, writeFileSync } from 'fs';
 import plugin from '../src/index';
 import expect from 'expect';
 import { resolve } from 'path';
@@ -138,6 +138,7 @@ describe('index', () => {
         plugins: cssPlugin && Array.isArray(cssPlugin[1]) ? cssPlugin : [cssPlugin || plugin],
       }).code;
 
+      // writeFileSync(expectedFile, actual.trim(), 'utf8');
 
       if (onlyFixtures.length) {
         console.warn();

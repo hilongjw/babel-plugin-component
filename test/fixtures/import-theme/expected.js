@@ -1,10 +1,10 @@
-var _Alert2 = _interopRequireDefault(require("element-ui/lib/theme-default/alert.css")).default;
+require("element-ui/lib/theme-default/alert.css");
 
 require("element-ui/lib/theme-default/base.css");
 
 var _Alert = _interopRequireDefault(require("element-ui/lib/alert")).default;
 
-var _Button2 = _interopRequireDefault(require("element-ui/lib/theme-default/button.css")).default;
+require("element-ui/lib/theme-default/button.css");
 
 require("element-ui/lib/theme-default/base.css");
 

@@ -1,8 +1,8 @@
-var _Alert2 = _interopRequireDefault(require("element-ui5/lib/theme-custom-path/alert/alert.css")).default;
+require("element-ui5/lib/theme-custom-path/alert/alert.css");
 
 var _Alert = _interopRequireDefault(require("element-ui5/lib/alert")).default;
 
-var _Button2 = _interopRequireDefault(require("element-ui5/lib/theme-custom-path/button/button.css")).default;
+require("element-ui5/lib/theme-custom-path/button/button.css");
 
 var _Button = _interopRequireDefault(require("element-ui5/lib/button")).default;
 
